@@ -24,3 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 Session.vim
+
+# temporary hiding dark theme images
+public/dark

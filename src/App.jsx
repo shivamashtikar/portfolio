@@ -98,6 +98,7 @@ function App() {
       </main>
 
       {/* Chatbot FAB */}
+    {/*
       <div className="fixed bottom-8 right-8">
         <Tooltip text="Chat with my AI assistant!" position="top">
           <button className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition">
@@ -105,6 +106,7 @@ function App() {
           </button>
         </Tooltip>
       </div>
+    */}
 
       {/* Footer */}
       <footer className="bg-white dark:bg-gray-800 mt-16 py-6">

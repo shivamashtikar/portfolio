@@ -49,11 +49,6 @@ export default function Header() {
               <img src={linkedin} alt="LinkedIn" className="h-8 w-8 hover:opacity-75 transition" />
             </a>
           </Tooltip>
-          <Tooltip text="Download Resume" position="bottom">
-            <a href="/resume/Shivam_Ashtikar_Resume.pdf" download>
-              <ArrowDownTrayIcon className="h-8 w-8 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition" />
-            </a>
-          </Tooltip>
           <ThemeToggle />
         </div>
 

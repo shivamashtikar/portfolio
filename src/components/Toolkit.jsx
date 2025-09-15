@@ -17,6 +17,7 @@ const toolkit = [
     items: [
       { name: "React", icon: <FaReact className="text-sky-500" />, desc: "Modern web UI development" },
       { name: "Android Native", icon: <FaJava className="text-green-600" />, desc: "Native Android development" },
+      { name: "Presto", icon: <SiPurescript className="text-indigo-600" />, desc: "Cross-Platform PureScript Framework" },
       { name: "Streamly", icon: <span className="font-bold">S</span>, desc: "Haskell streaming library" },
     ],
   },

@@ -74,7 +74,7 @@ function App() {
                 <h4 className="text-2xl font-semibold dark:text-gray-100">SDE I @ <a href="https://juspay.io/in" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Juspay</a></h4>
                 <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Jun 2021 – Mar 2023</p>
                 <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
-                  <li>Spearheaded onboarding for interns and new managers.</li>
+                  <li>Lead Payment Page team.</li>
                   <li>Reduced Purescript compile time 6x, improving delivery speed.</li>
                   <li>Built a DevTools app for payment flow testing and CI/CD improvements.</li>
                 </ul>

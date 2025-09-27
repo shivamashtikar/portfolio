@@ -36,21 +36,20 @@ export default function Header() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-6 text-lg">
           {navLinks}
+          <div className="flex items-center space-x-4">
+            <Tooltip text="GitHub" position="bottom">
+              <a href="https://github.com/shivamashtikar" target="_blank" rel="noopener noreferrer">
+                <img src={github} alt="GitHub" className="h-8 w-8 hover:opacity-75 transition dark:invert" />
+              </a>
+            </Tooltip>
+            <Tooltip text="LinkedIn" position="bottom">
+              <a href="https://linkedin.com/in/shivamashtikar" target="_blank" rel="noopener noreferrer">
+                <img src={linkedin} alt="LinkedIn" className="h-8 w-8 hover:opacity-75 transition" />
+              </a>
+            </Tooltip>
+            <ThemeToggle />
+          </div>
         </nav>
-
-        <div className="hidden md:flex items-center space-x-4">
-          <Tooltip text="GitHub" position="bottom">
-            <a href="https://github.com/shivamashtikar" target="_blank" rel="noopener noreferrer">
-              <img src={github} alt="GitHub" className="h-8 w-8 hover:opacity-75 transition dark:invert" />
-            </a>
-          </Tooltip>
-          <Tooltip text="LinkedIn" position="bottom">
-            <a href="https://linkedin.com/in/shivamashtikar" target="_blank" rel="noopener noreferrer">
-              <img src={linkedin} alt="LinkedIn" className="h-8 w-8 hover:opacity-75 transition" />
-            </a>
-          </Tooltip>
-          <ThemeToggle />
-        </div>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center">

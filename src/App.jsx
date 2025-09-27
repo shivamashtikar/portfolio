@@ -53,37 +53,42 @@ function App() {
         {/* Experience */}
         <section id="experience" className="mb-16">
           <h3 className="text-4xl font-bold text-center mb-8 dark:text-gray-100">Experience</h3>
-          <div className="border-l-4 border-blue-500 pl-8 space-y-12">
-            {/* Juspay */}
-            <div className="relative">
-              <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
-              <h4 className="text-2xl font-semibold dark:text-gray-100">SDE II @ Juspay</h4>
-              <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Mar 2023 – Present</p>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
-                <li>Led the Euler Dashboard team, integrating features like Slack API, OAuth 2.0, and Passkey.</li>
-                <li>Achieved 90% reduction in production bugs via canary deployments.</li>
-                <li>Pioneered trunk-based development to boost release cycles.</li>
-              </ul>
-            </div>
-            <div className="relative">
-              <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
-              <h4 className="text-2xl font-semibold dark:text-gray-100">SDE I @ Juspay</h4>
-              <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Jun 2021 – Mar 2023</p>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
-                <li>Spearheaded onboarding for interns and new managers.</li>
-                <li>Reduced Purescript compile time 6x, improving delivery speed.</li>
-                <li>Built a DevTools app for payment flow testing and CI/CD improvements.</li>
-              </ul>
-            </div>
-            <div className="relative">
-              <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
-              <h4 className="text-2xl font-semibold dark:text-gray-100">Associate SDE @ Juspay</h4>
-              <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Jul 2019 – Jun 2021</p>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
-                <li>Improved Android app render time by 66% with pre-rendering.</li>
-                <li>Key role in data pipeline migration to Haskell using Streamly.</li>
-                <li>Built a Haskell-based alternative to Fluentd for Kubernetes.</li>
-              </ul>
+          <div className="flex justify-center">
+            <div className="border-l-4 border-blue-500 pl-8 space-y-12">
+              {/* Juspay */}
+              <div className="relative">
+                <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
+                <h4 className="text-2xl font-semibold dark:text-gray-100">SDE II @ Juspay</h4>
+                <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Mar 2023 – Present</p>
+                <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
+                  <li>Led cross-functional teams to deliver and maintain the Xyne open-source platform and Euler Dashboard.</li>
+                  <li>Deployed on-premise LLM solutions using Ollama, vLLM, and SGLang on GPU infrastructure.</li>
+                  <li>Architected and built a RAG system with VespaDB and Postgres.</li>
+                  <li>Managed scalable DevOps infrastructure on AWS/GCP.</li>
+                  <li>Reduced production bugs by 90% with canary deployments and pioneered trunk-based development.</li>
+                  <li>Lead team while integrating Slack API, OAuth 2.0, and Passkey for enhanced functionality.</li>
+                </ul>
+              </div>
+              <div className="relative">
+                <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
+                <h4 className="text-2xl font-semibold dark:text-gray-100">SDE I @ Juspay</h4>
+                <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Jun 2021 – Mar 2023</p>
+                <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
+                  <li>Spearheaded onboarding for interns and new managers.</li>
+                  <li>Reduced Purescript compile time 6x, improving delivery speed.</li>
+                  <li>Built a DevTools app for payment flow testing and CI/CD improvements.</li>
+                </ul>
+              </div>
+              <div className="relative">
+                <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
+                <h4 className="text-2xl font-semibold dark:text-gray-100">Associate SDE @ Juspay</h4>
+                <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Jul 2019 – Jun 2021</p>
+                <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
+                  <li>Improved Android app render time by 66% with pre-rendering.</li>
+                  <li>Key role in data pipeline migration to Haskell using Streamly.</li>
+                  <li>Built a Haskell-based alternative to Fluentd for Kubernetes.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>

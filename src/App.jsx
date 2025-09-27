@@ -46,10 +46,6 @@ function App() {
           </div>
         </section>
 
-        {/* Technical Toolkit */}
-        <Toolkit/>
-
-
         {/* Experience */}
         <section id="experience" className="mb-16">
           <h3 className="text-4xl font-bold text-center mb-8 dark:text-gray-100">Experience</h3>
@@ -92,6 +88,11 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* Technical Toolkit */}
+        <Toolkit/>
+
+
 
         {/* Education */}
         <section id="education" className="text-center">

@@ -17,11 +17,11 @@ export default function Header() {
       <Link to="hero" smooth={true} duration={500} spy={true} offset={0} activeClass="text-blue-600 dark:text-blue-400" className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition">
         About
       </Link>
-      <Link to="toolkit" smooth={true} duration={500} spy={true} offset={-80} activeClass="text-blue-600 dark:text-blue-400" className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition">
-        Toolkit
-      </Link>
       <Link to="experience" smooth={true} duration={500} spy={true} offset={-80} activeClass="text-blue-600 dark:text-blue-400" className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition">
         Experience
+      </Link>
+      <Link to="toolkit" smooth={true} duration={500} spy={true} offset={-80} activeClass="text-blue-600 dark:text-blue-400" className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition">
+        Toolkit
       </Link>
     </>
   );

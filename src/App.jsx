@@ -58,7 +58,7 @@ function App() {
               {/* Juspay */}
               <div className="relative">
                 <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
-                <h4 className="text-2xl font-semibold dark:text-gray-100">SDE II @ Juspay</h4>
+                <h4 className="text-2xl font-semibold dark:text-gray-100">SDE II @ <a href="https://juspay.io/in" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Juspay</a></h4>
                 <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Mar 2023 – Present</p>
                 <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
                   <li>Led cross-functional teams to deliver and maintain the Xyne open-source platform and Euler Dashboard.</li>
@@ -71,7 +71,7 @@ function App() {
               </div>
               <div className="relative">
                 <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
-                <h4 className="text-2xl font-semibold dark:text-gray-100">SDE I @ Juspay</h4>
+                <h4 className="text-2xl font-semibold dark:text-gray-100">SDE I @ <a href="https://juspay.io/in" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Juspay</a></h4>
                 <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Jun 2021 – Mar 2023</p>
                 <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
                   <li>Spearheaded onboarding for interns and new managers.</li>
@@ -81,7 +81,7 @@ function App() {
               </div>
               <div className="relative">
                 <div className="absolute -left-10 bg-blue-500 h-4 w-4 rounded-full"></div>
-                <h4 className="text-2xl font-semibold dark:text-gray-100">Associate SDE @ Juspay</h4>
+                <h4 className="text-2xl font-semibold dark:text-gray-100">Associate SDE @ <a href="https://juspay.io/in" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Juspay</a></h4>
                 <p className="text-md text-gray-500 dark:text-gray-400 mb-2">Jul 2019 – Jun 2021</p>
                 <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
                   <li>Improved Android app render time by 66% with pre-rendering.</li>
